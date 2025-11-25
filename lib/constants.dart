@@ -1,12 +1,12 @@
 class AppConstants {
   static const String appName = "Inventory Admin";
 
-  // API Base URL (Use 127.0.0.1 for Chrome/Web)
-  static const String apiBaseUrl = "http://127.0.0.1:5000/api"; 
+  // API Base URL (Updated to deployed backend)
+  static const String apiBaseUrl = "https://inventoryandorders-backend-1.onrender.com/api"; 
 
-  // UI Constants <-- RESTORED SECTION
+  // UI Constants
   static const double defaultPadding = 16.0;
-  static const double defaultRadius = 12.0; // <-- THIS IS WHAT WAS MISSING
+  static const double defaultRadius = 12.0;
 
   // Animations
   static const Duration shortAnim = Duration(milliseconds: 250);
